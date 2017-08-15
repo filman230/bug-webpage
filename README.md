@@ -1,1 +1,1 @@
-This wabpage is used to show a bug that occurs in Firefox.
+This webpage is used to show the scroll problem in Firefox for Android.
