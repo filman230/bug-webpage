@@ -4,49 +4,15 @@
 <head>
 	<!-- version 1.0.69 -->
 	<meta charset="utf-8">
-	<meta name="Content-Language" content="fr">
-
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="apple-itunes-app" content="app-id=426125722">
-	<meta name="google-play-app" content="app-id=com.smartnsoft.metro">
-	<link rel="apple-touch-icon" href="http://static.lci.fr/assets/images/logo-app.png">
-	<link rel="android-touch-icon" href="http://static.lci.fr/assets/images/logo-app.png" />
-	
-
-	<meta name="referrer" content="origin-when-crossorigin" />
-	<meta name="google-site-verification" content="" />
+	<meta name="Content-Language" content="fr">	
 	<link rel="stylesheet" href="http://static.lci.fr/assets/css/style.css?bust=1.0.69" type="text/css">
-	<link rel="dns-prefetch" href="http://static.lci.fr/">
-	<link rel="dns-prefetch" href="//static.mytf1.tf1.fr">
-	<link rel="dns-prefetch" href="//photos.lci.fr">
-	<link rel="dns-prefetch" href="//www.wat.tv">
-	<link rel="apple-touch-icon" sizes="57x57" href="http://static.lci.fr/assets/images/favicons/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="http://static.lci.fr/assets/images/favicons/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="http://static.lci.fr/assets/images/favicons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="http://static.lci.fr/assets/images/favicons/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="http://static.lci.fr/assets/images/favicons/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="http://static.lci.fr/assets/images/favicons/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="http://static.lci.fr/assets/images/favicons/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="http://static.lci.fr/assets/images/favicons/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="http://static.lci.fr/assets/images/favicons/apple-touch-icon-180x180.png">
-	<link rel="icon" type="image/png" href="http://static.lci.fr/assets/images/favicons/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="http://static.lci.fr/assets/images/favicons/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="http://static.lci.fr/assets/images/favicons/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="http://static.lci.fr/assets/images/favicons/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="http://static.lci.fr/assets/images/favicons/manifest.json">
-	<link rel="shortcut icon" href="http://static.lci.fr/assets/images/favicons/favicon.ico">
-	<meta name="msapplication-TileColor" content="#3366ff">
-	<meta name="msapplication-TileImage" content="http://static.lci.fr/assets/images/favicons/mstile-144x144.png">
-	<meta name="msapplication-config" content="http://static.lci.fr/assets/images/favicons/browserconfig.xml">
+	
 	<meta name="theme-color" content="#ffffff">
 	<meta property="og:locale" content="fr_FR" />
 	<meta property="og:site_name" content="LCI">
-	<meta property="og:image" content="http://photos.lci.fr/images/767/1170/adeline-belloc-_-vincent-piccerelle-704b32-0@1x.jpeg">
-	<link rel="alternate" href="android-app://com.example.android/http/gizmos.com/" />
-	<link rel="alternate" href="ios-app://com.example.android/http/gizmos.com/" />
+	
 	<script id="initXITI">
-		var xtInitialized = false;
-
+		var xtInitialized = false;	
 		function xtDynamicHit() {
 			if (!xtInitialized) {
 				var s = document.createElement('script');
@@ -63,41 +29,8 @@
 				applyTag();
 			}
 		}
-
-		function getFirstParent(el) {
-			var returnVar = null;
-			while (el && el.parentNode) {
-				var tempElt = el;
-				el = el.parentNode;
-				if ((el.id && (el.id === 'global_wrapper' || el.id === 'wrapper')) || el.tagName.toLowerCase() == 'body') {
-					return tempElt;
-				}
-			}
-		}
-
-		function applyTag() {
-			var actions = {
-				N: 'navigation',
-				S: 'exit',
-				A: 'action',
-				T: 'download'
-			};
-			var Tag = new ATInternet.Tracker.Tag();
-			Tag.page.set({
-				name: xtpage,
-				level2: xtn2,
-				xt_tag: xt_tag
-			});
-			if (xtcustom) {
-				Tag.page.set({
-					customObject: xtcustom
-				});
-			}
-			if (xt_at) {
-				Tag.identifiedVisitor.set({
-					id: xt_at
-				});
-			}
+		
+		
 			Tag.dispatch();
 			if (reqConfig.trackingXiti) {
 				var listElts = document.querySelectorAll('.trackXiti');
@@ -127,33 +60,7 @@
 		}
 	</script>
 	
-	<script type="application/ld+json">
-		{
-			
-			
-			
-			"publisher": {
-				"@type": "Organization",
-				"name": "LCI",
-				"logo": {
-					"@type": "ImageObject",
-					"url": "http://static.lci.fr/assets/images/logo-lci.png",
-					"width": 155,
-					"height": 60
-				}
-			},
-			
-		}
-	</script>
-	<script type="text/javascript">
-		var _sf_async_config = _sf_async_config || {}; /** CONFIGURATION START **/
-		_sf_async_config.uid = "62376";
-		_sf_async_config.domain = "lci.fr";
-		_sf_async_config.flickerControl = false;
-		_sf_async_config.useCanonical = true; /** CONFIGURATION END **/
-		var _sf_startpt = (new Date()).getTime();
-	</script>
-	<script async src="//static.chartbeat.com/js/chartbeat_mab.js"></script>
+	
 </head>
 
 <body class="article-page  ">
@@ -162,48 +69,12 @@
 	</div>
 	<header class="site-header push-left initjs" data-type="sticky-header" id="js-sticky-header">
 		<p class="trackXiti site-header-burger-menu initjs" data-type="burger-menu" data-xiti-libelle="article" data-xiti="menu-burger::ouverture" data-xiti-type="A"></p><a href="/" title="LCI" class="site-header-logo">LCI</a>
-			<!-- Missing spec sponsorisé -->
-			<!-- a href="//" title="">EDF Pulse<span class="annotation">Sponsorisé</span></a --></nav>
+			</nav>
 		<ul class="site-header-user-links initjs" data-type="sharer">
 		</ul>
 	</header>
-	<div class="push-left push-left-header wrapper-main">
-		<nav class="site-to-follow hidden-xs-down initjs" data-type="menu-vertical-scroll">
-			<p class="site-to-follow-title icon-check">À suivre</p>
-			
-		</nav>
-		
-	</div>
-	<div class="site-content-wrapper push-left">
-		<header>
-			<div class="header-block">
-				<figure class="picture-wrapper header-block-image">
-					<div class="overflowed">
-						<picture class="initjs loading" data-type="picture">
-							</picture>
-						<div class="overlay"></div>
-					</div>
-					
-				</figure>
-				
-			</div>
-		</header>
-		<div class="sticky-social-block grid grid-spacer-large initjs" data-type="sticky-social" id="js-sticky-social">
-			<div class="sticky-social-block-content">
-				<div class="sticky-social-block-topic"></div>
-				<div class="sticky-social-block-social">
-					<ul class="social initjs" data-type="sharer">
-					
-					
-						
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="article-chapo-block grid grid-spacer-large">
-			
-		
-		<div class="interview-block grid grid-spacer-large">
+	
+	
 			<div class="col-full">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in pulvinar nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in hendrerit urna. Nunc nec libero non lectus accumsan porta. Mauris lobortis justo at nisi venenatis, cursus malesuada quam porta. Sed vitae porta mauris. Maecenas bibendum aliquet sapien, eget fermentum ex tincidunt et.</p>
 				<p>Quisque sed velit porttitor, malesuada neque at, lacinia felis. Vestibulum in laoreet metus. Mauris fringilla efficitur nunc eget blandit. Nulla mattis velit vitae feugiat mattis. Cras at varius diam. Nulla tincidunt erat leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam arcu congue mi pharetra, eget iaculis sapien sollicitudin. Vivamus ullamcorper congue sem, vel tempus ligula sodales non. Integer sit amet libero quis libero cursus auctor. Maecenas volutpat ante ut purus bibendum ultrices. Donec molestie iaculis massa nec euismod.</p>
@@ -216,49 +87,8 @@
 				<p>Nam sed nisi neque. Integer ultrices neque lobortis gravida convallis. Nam lacinia massa lectus, vel convallis enim viverra vel. Donec laoreet erat in congue dapibus. Sed ac enim mattis, placerat nunc quis, porta ex. Phasellus pharetra, dolor in pulvinar eleifend, purus lectus porttitor purus, eu egestas orci ligula id mi. Vivamus eget dignissim velit, id ultrices mi. Sed bibendum mattis risus sit amet congue. Vestibulum ipsum ipsum, mollis ultrices consequat eget, pretium eget metus. Nullam pellentesque egestas arcu, id aliquet ipsum dignissim sed. Nunc laoreet felis dapibus felis pharetra feugiat. Sed convallis nisi in dignissim condimentum. Morbi eleifend, urna quis auctor molestie, metus ipsum luctus magna, id imperdiet augue ante ac urna.</p>
 				<p>In vel leo non nisi eleifend ornare ac in ante. Curabitur eu libero a eros fringilla auctor sit amet eget odio. Quisque pellentesque dolor ac lacinia efficitur. Sed eu mauris nec dolor molestie lobortis. Pellentesque at consequat velit, a egestas tortor. Mauris lobortis vulputate laoreet. Proin non nisl nisi. Morbi sit amet ligula felis. Suspendisse tortor tellus, placerat a turpis vitae, laoreet rutrum urna. Nullam quis gravida leo.</p>
 				
-			</div>
-		</div>
-		
-		</div>
-		
-		
-		
-		
-									</div>
-									
-									</div>
-									
-									
-
-
-		
-		
-		
-		
-		
-			<div id="oas_Bottom" class=""></div>
-		</div><span class="initjs" data-type="dateFormat"></span>
-		<div class="grid filled-block">
-			<div id="disqus_thread"></div>
-			<script>
-				(function() {
-					var d = document,
-						s = d.createElement('script');
-					s.src = '//metrofrance.disqus.com/count.js';
-					s.setAttribute('data-timestamp', +new Date());
-					(d.head || d.body).appendChild(s);
-				})();
-			</script>
-			
-		</div>
-		
 	</div>
 	
-	
-		
-		
-		</div>
-	</div>
 	<!-- Appel OAS openad -->
 	<script type="text/javascript">
 		window.oas_tag = window.oas_tag || {};
@@ -281,28 +111,7 @@
 		window.oas_exclude_tablet = '49020701,49020401';
 		window.oas_exclude_web = '49020701,49020401';
 	</script>
-	<script id="initXITI">
-		window.xt_adblock = 2;
-		window.xtnv = document;
-		window.smarttagUrl = 'http://static.lci.fr/assets/scripts/lib/smarttag-prod.js';
-		window.smarttagUrlYoutube = 'http://static.lci.fr/assets/scripts/lib/at-smarttag-youtube.js';
-		window.xtpage = "lifestyle::sante::2008090_le-premier-souffle-a-ete-une-delivrance-adeline-raconte-sa-greffe-des-poumons";
-		window.xtdi = "";
-		window.xt_multc = "";
-		window.xt_ac = "";
-		window.xt_at = false;
-		window.xt_tag = '';
-		window.xtInitialized = false;
-		window.xtcustom = {};
-		window.pageIndicator = "1";
-		window.xtn2 = "4";
-		window.x5 = '1';
-		window.x11 = '1';
-		window.x12 = '[lifestyle]';
-		window.x13 = '[sante]';
-		window.x15 = '2008090';
-		window.x16 = '[greffe::medecine::maladie]';
-	</script>
+	
 	<div class="initjs" data-type="xiti"></div>
 	<script src="http://static.lci.fr/assets/scripts/lib/require.js?bust=v18"></script>
 	<script>
@@ -315,12 +124,10 @@
 			baseUrl: url,
 			waitSeconds: 120,
 			paths: {
-				twitterWidget: '//platform.twitter.com/widgets',
 				classList: 'http://static.lci.fr/assets/scripts/lib/classList.polyfill',
 				CustomEvent: 'http://static.lci.fr/assets/scripts/lib/customEvent.polyfill',
 				lazyload: 'http://static.lci.fr/assets/scripts/lib/lazyload',
 				dragscroll: 'http://static.lci.fr/assets/scripts/lib/dragscroll',
-				picturefill: 'http://static.lci.fr/assets/scripts/lib/picturefill.min',
 				Swiper: 'http://static.lci.fr/assets/scripts/lib/swiper.min',
 				hammer: 'http://static.lci.fr/assets/scripts/lib/hammer.min',
 				mprogress: 'http://static.lci.fr/assets/scripts/modules/mprogress',
@@ -330,9 +137,6 @@
 				smartbanner: 'http://static.lci.fr/assets/scripts/lib/smart-app-banner'
 			},
 			shim: {
-				twitterWidget: {
-					exports: 'twitterWidget'
-				},
 				classList: {
 					exports: 'classList'
 				},
@@ -354,17 +158,11 @@
 				utils: {
 					exports: 'utils'
 				},
-				cookie: {
-					exports: 'cookie'
-				},
 				hammer: {
 					exports: 'hammer'
 				},
 				mprogress: {
 					exports: 'mprogress'
-				},
-				video: {
-					exports: 'video'
 				},
 				smartbanner: {
 					exports: 'smartbanner'
@@ -377,86 +175,7 @@
 			class_page.addJavascriptBlocks(document);
 		});
 	</script>
-	<script>
-		
-		(function() {
-			function loadChartbeat() {
-				window._sf_endpt = (new Date()).getTime();
-				var e = document.createElement('script');
-				e.setAttribute('language', 'javascript');
-				e.setAttribute('type', 'text/javascript');
-				e.setAttribute('src', '//static.chartbeat.com/js/chartbeat_video.js');
-				document.body.appendChild(e);
-			}
-			var oldonload = window.onload;
-			window.onload = (typeof window.onload != 'function') ? loadChartbeat : function() {
-				oldonload();
-				loadChartbeat();
-			};
-		})();
-	</script>
-	<script>
-		var _eStat_Whap_loaded = 0;
-		var _eStat_Whap_sent = 0;
 
-		function _eStat_Whap_hit() {
-			if (_eStat_Whap_loaded && !_eStat_Whap_sent) {
-				eStatWhap.serial("800000206966");
-				eStatWhap.send();
-			}
-			_eStat_Whap_sent = 1;
-		}
-	</script>
-	<script>
-		var async_function = [];
-		async_function.push(function() {
-			var s = document.createElement('script');
-			s.async = true;
-			s.src = '//w.estat.com/js/whap.js';
-			s.onreadystatechange = function() {
-				if (this.readyState == 'complete' || this.readyState == 'loaded') {
-					_eStat_Whap_hit();
-				}
-			};
-			s.addEventListener('load', function(e) {
-				_eStat_Whap_hit()
-			}, false);
-			var x = document.getElementsByTagName('script')[0];
-			x.parentNode.insertBefore(s, x);
-		});
-	</script>
-	<script type="text/javascript">
-		async_function.push(function() {
-			var n_pbt = "";
-			var nuggrid = encodeURIComponent(top.location.href);
-			var nuggn = 731239640;
-			var nuggsid = 287833541;
-			var nuggsub = "lpm-tf1";
-			var nuggscr = document.createElement('script');
-			nuggscr.type = 'text/javascript';
-			nuggscr.src = '//' + nuggsub + '.nuggad.net/rc?nuggn=' + nuggn + '&nuggsid=' + nuggsid + '&nuggrid=' + nuggrid;
-			nuggscr.async = true;
-			var n = document.getElementsByTagName('script')[0];
-			n.parentNode.insertBefore(nuggscr, n);
-		});
-	</script>
-	<script type="text/javascript">
-		(function() {
-			function loadOwnpageScript(e) {
-				var t = "https://script.ownpage.fr/v1/",
-					a = document.createElement("script"),
-					n = document.getElementsByTagName("script")[0];
-				a.type = "text/javascript", a.defer = 1, a.async = 1, a.src = t + "ownpage.js", a.onload = e, a.readyState ? a.onreadystatechange = function() {
-					("loaded" == a.readyState || "complete" == a.readyState) && (a.onreadystatechange = null, e && "function" == typeof e && e())
-				} : a.onload = function() {
-					e && "function" == typeof e && e()
-				}, n.parentNode.insertBefore(a, n)
-			}
-			loadOwnpageScript(function() {
-				Ownpage.trackPage("fff6f19fd6cb454e", undefined);
-			});
-		})();
-	</script>
 </body>
 
 </html>
